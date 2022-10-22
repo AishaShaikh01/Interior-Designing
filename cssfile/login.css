@@ -1,0 +1,25 @@
+.forget{
+    color: slategray;
+    font-size: 16px;
+    line-height: 50px;
+}
+.viewarrow{
+    width: 26px;
+    height: 18px;
+    line-height: 30px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.details{
+    width: 150px;
+    height: 30px;
+    border: 2px solid #fc5b79;
+    justify-content: center;
+    display: flex;
+    line-height: 30px;
+    color: #fc5b79;
+    
+    position: absolute;
+    bottom:  2%;
+    left: 40%;
+}

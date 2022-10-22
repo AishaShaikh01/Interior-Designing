@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+#container{
+    width: 100%;
+    background-color: transparent;
+}
+
+/* form */
+#signup-form{
+    width: 100%;
+    height: 625px;
+    background-color:#fc5b79;
+    justify-content: center;
+    display: flex;
+}
+.pic-box{
+    width: 750px;
+    height: 622px;
+    background-color: transparent;
+    
+}
+video{
+    width: 640px;
+    height: 620px;
+    border: none;
+    object-fit: cover;
+}
+.form-box{
+    width: 880px;
+    height:617px;
+    background:#f1f4e1;
+   padding-top:3px;  
+}
+.backarrow{
+    width: 26px;
+    height: 18px;
+    line-height: 30px;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+a{
+    text-decoration: none;
+}
+.back{
+    width: 100px;
+    height: 30px;
+    border: 2px solid #fc5b79;
+    margin-left: 5px;
+    justify-content: center;
+    display: flex;
+    line-height: 30px;
+    color: #fc5b79;
+}
+u{
+    color: #fc5b79;
+}
+input::placeholder{
+    font-size: 14px;
+    color: #535c68;
+    font-family:sans-serif; 
+   
+}
+h1{
+    color: #01c6b2;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.inputbox{
+    justify-content: center;
+    display: flex;
+}
+input[type=text],[type=number],[type=email],[type=password],[type=tel]{
+    width: 300px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom:2px solid #fc5b79;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 2px solid transparent;
+    outline: none;
+    font-size: 16px;
+    top: 0px;
+    transition: 0.5s;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    display: block;
+}
+label{
+    margin-left: 20px;
+    color: #535c68;
+}
+
+input[type=radio]{
+    background-color: transparent;
+   
+    top: 0px;
+    transition: 0.5s;
+    margin-bottom: 20px;
+    padding: 5px;
+    margin-left: 50px;
+   accent-color:#25d9ec ;
+}
+.radio{
+    color: #535c68;
+    font-size: 16px;
+}
+input[type=text]:hover,[type=number]:hover,[type=email]:hover,[type=password]:hover,[type=tel]:hover{
+    border-bottom:2px solid #fc5b79;
+    border-top:2px solid #25d9ec;
+    border-right:2px solid #fc5b79;
+    border-left :2px solid #25d9ec;
+    font-size: 14PX;
+}
+.submit-btn{
+    width: 200px;
+    height: 40px;
+    margin-left: 75px;
+    border-radius: 50px;
+    border:3px solid #fc5b79;
+    font-size: 17px;
+    font-weight: 600;
+    color:#fc5b79;
+
+    background: linear-gradient(to right, #3e92a0,#fc5b79  50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.submit-btn:hover{
+    background-position: left bottom;
+    border: 3px solid white;
+    color: white;
+}
+.login-p{
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 10%;
+
+}
+/* form */
+
+.viewarrow{
+    width: 26px;
+    height: 18px;
+    line-height: 30px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.view{
+    width: 150px;
+    height: 30px;
+    border: 2px solid #fc5b79;
+    justify-content: center;
+    display: flex;
+    line-height: 30px;
+    color: #fc5b79;
+    
+    position: absolute;
+    bottom:  2%;
+    right: 1%;
+}
